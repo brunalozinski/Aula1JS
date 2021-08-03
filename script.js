@@ -13,6 +13,7 @@ function soma() {
     if (numero1.value !== '' && numero2.value !== '') {
         resultado.value = parseInt (numero1.value) + parseInt (numero2.value)
 
+        formulario.classList = []
         formulario.classList.add("somar")
     } else {
         alert("Preencha todos os campos solicitados!")
@@ -23,6 +24,7 @@ function subtracao() {
     if (numero1.value !== '' && numero2.value !== '') {
         resultado.value = parseInt (numero1.value) - parseInt (numero2.value)
         
+        formulario.classList = []
         formulario.classList.add("subtrair")
     } else {
         alert("Preencha todos os campos solicitados!")
@@ -33,6 +35,7 @@ function multiplicacao() {
     if (numero1.value !== '' && numero2.value !== '') {
         resultado.value = parseInt (numero1.value) * parseInt (numero2.value)
         
+        formulario.classList = []
         formulario.classList.add("multiplicar")
     } else {
         alert("Preencha todos os campos solicitados!")
@@ -43,6 +46,7 @@ function divisao() {
     if (numero1.value !== '' && numero2.value !== '') {
         resultado.value = parseInt (numero1.value) / parseInt (numero2.value)
 
+        formulario.classList = []
         formulario.classList.add("dividir")
     } else {
         alert("Preencha todos os campos solicitados!")
