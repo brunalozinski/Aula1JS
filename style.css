@@ -1,0 +1,73 @@
+*{ margin:0; padding:0;}
+ 
+body{ font:100% normal Arial, Helvetica, sans-serif; background:#ffffff;}
+ 
+form,input,textarea{margin:0; padding:0; color:#fffffff5;}
+ 
+div.box {
+    margin:0 auto;
+    width:500px;
+    background:#ffffff;
+    position:relative;
+    top:300px;
+    border:1px solid #262626;
+    border-bottom:1px solid #161712;
+}
+ 
+header h1 {
+    color:#000000;
+    font-size:18px;
+    text-transform:uppercase;
+    padding:15px 0 5px 300px;
+}
+ 
+div.box label {
+    width:100%;
+    display: block;
+    padding:40px 0 10px 0;
+}
+ 
+div.box label span {
+    display: block;
+    color:#000000;
+    font-size:12px;
+    float:left;
+    width:130px;
+    text-align:right;
+    padding:10px 20px 0 0;
+}
+
+div.box .input_text {
+    padding:10px 10px;
+    width:200px;
+    background:#ffffff;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+}
+ 
+div.box .input_number {
+    padding:10px 10px;
+    width:200px;
+    background:#ffffff;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+}
+ 
+button{
+    margin:0 0 10px 0;
+    padding:4px 30px;
+    background:#a8a8a8;
+    border:0px;
+    position: relative;
+    top:5px;
+    left:200px;
+    width:100px;
+    border-bottom: 1px double #000000;
+    border-top: 1px double #000000;
+    border-left:1px double #000000;
+    border-right:1px double #000000;
+}
